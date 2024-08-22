@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/reef-technologies/cookiecutter-rt-pkg",
+  "commit": "045d80d451ec86f8ec00a9ee20ac5eca841b4bd6",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "package_name": "bt_auto_dumper",
+      "repository_github_url": "https://github.com/backend-developers-ltd/bt-auto-dumper",
+      "is_django_package": "n",
+      "_jinja2_env_vars": {
+        "block_start_string": "# COOKIECUTTER{%",
+        "block_end_string": "%}"
+      },
+      "_template": "https://github.com/reef-technologies/cookiecutter-rt-pkg"
+    }
+  },
+  "directory": null
+}
