@@ -25,6 +25,9 @@ dependencies = [
 "Source" = "https://github.com/backend-developers-ltd/bt-auto-dumper"
 "Issue Tracker" = "https://github.com/backend-developers-ltd/bt-auto-dumper/issues"
 
+[project.scripts]
+bt-auto-dumper = "bt_auto_dumper.__main__:main"
+
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"

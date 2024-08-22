@@ -1,11 +1,25 @@
-# bt_auto_dumper
+# bt-auto-dumper
+
+Bittensor auto dumper, a part of [Auto-validator initiative](https://github.com/bactensor/auto-validator).
+
 &nbsp;[![Continuous Integration](https://github.com/backend-developers-ltd/bt-auto-dumper/workflows/Continuous%20Integration/badge.svg)](https://github.com/backend-developers-ltd/bt-auto-dumper/actions?query=workflow%3A%22Continuous+Integration%22)&nbsp;[![License](https://img.shields.io/pypi/l/bt_auto_dumper.svg?label=License)](https://pypi.python.org/pypi/bt_auto_dumper)&nbsp;[![python versions](https://img.shields.io/pypi/pyversions/bt_auto_dumper.svg?label=python%20versions)](https://pypi.python.org/pypi/bt_auto_dumper)&nbsp;[![PyPI version](https://img.shields.io/pypi/v/bt_auto_dumper.svg?label=PyPI%20version)](https://pypi.python.org/pypi/bt_auto_dumper)
+
+## Installation
+
+```bash
+pip install bt-auto-dumper
+```
 
 ## Usage
 
-> [!IMPORTANT]
-> This package uses [ApiVer](#versioning), make sure to import `bt_auto_dumper.v1`.
 
+```bash
+bt-auto-dumper --help
+```
+
+This project uses [ApiVer](https://github.com/reef-technologies/apiver):
+* when using `bt-auto-dumper` as a command line tool, in context of script, make sure you explicitly set `BT_AUTO_DUMPER_APIVER=v1` env variable to ensure compatibility with future versions
+* when python package itself make sure to import `bt_auto_dumper.v1`
 
 ## Versioning
 
