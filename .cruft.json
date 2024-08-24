@@ -5,7 +5,7 @@
   "context": {
     "cookiecutter": {
       "package_name": "bt_auto_dumper",
-      "repository_github_url": "https://github.com/backend-developers-ltd/bt-auto-dumper",
+      "repository_github_url": "https://github.com/bactensor/bt-auto-dumper",
       "is_django_package": "n",
       "_jinja2_env_vars": {
         "block_start_string": "# COOKIECUTTER{%",

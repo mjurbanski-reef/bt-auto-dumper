@@ -5,7 +5,7 @@ keywords = []
 license = {text = "MIT"}
 readme = "README.md"
 authors = [
-    {name = "Backend Developers, Ltd", email = "opensource@bactensor.io"},
+    {name = "Backend Developers LTD"},
 ]
 classifiers = [
     "Intended Audience :: Developers",
@@ -22,8 +22,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Source" = "https://github.com/backend-developers-ltd/bt-auto-dumper"
-"Issue Tracker" = "https://github.com/backend-developers-ltd/bt-auto-dumper/issues"
+"Source" = "https://github.com/bactensor/bt-auto-dumper"
+"Issue Tracker" = "https://github.com/bactensor/bt-auto-dumper/issues"
 
 [project.scripts]
 bt-auto-dumper = "bt_auto_dumper.__main__:main"
@@ -89,8 +89,8 @@ directory = "changelog.d"
 filename = "CHANGELOG.md"
 start_string = "<!-- towncrier release notes start -->\n"
 underlines = ["", "", ""]
-title_format = "## [{version}](https://github.com/backend-developers-ltd/bt-auto-dumper/releases/tag/v{version}) - {project_date}"
-issue_format = "[#{issue}](https://github.com/backend-developers-ltd/bt-auto-dumper/issues/{issue})"
+title_format = "## [{version}](https://github.com/bactensor/bt-auto-dumper/releases/tag/v{version}) - {project_date}"
+issue_format = "[#{issue}](https://github.com/bactensor/bt-auto-dumper/issues/{issue})"
 
 [[tool.towncrier.type]]
 directory = "removed"
